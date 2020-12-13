@@ -53,7 +53,7 @@ body {
 .promo-title {
     font-size: 40px;
     font-weight: 600;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .play-btn {
@@ -129,4 +129,84 @@ body {
 #about-us {
     background: #f8f8f8;
     padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.about-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+#about-us ul li {
+    margin: 10px 0;
+}
+
+#about-us ul {
+    margin-left: 20px;
+}
+
+/* Testimonials */
+
+#testimonials {
+    margin: 50px 0;
+}
+
+.testimonials {
+    border-left: 4px solid #20aec7;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.testimonials img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.user-details {
+    display: inline-block;
+    font-size: 12px;
+}
+
+/* Social Media */
+#social-media {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+
+#social-media p {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-icons img {
+    width: 60px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover img {
+    transform: translateY(-10px);
+}
+
+/* Footer section*/
+
+#footer {
+    background-image: linear-gradient(to right, #14c4ca, #20aec7);
+    color: #fff;
+}
+
+.footer-img {
+    width: 100%;
+}
+
+.footer-box {
+    padding: 20px;
+}
+
+.footer-box img {
+    width: 120px;
+    margin-bottom: 20px;
 }
