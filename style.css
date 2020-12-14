@@ -210,3 +210,36 @@ body {
     width: 120px;
     margin-bottom: 20px;
 }
+
+#logo-span {
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.footer-box .fa {
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #14c4ca, #20aec7);
+}
+
+.footer-box .form-control {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.footer-box .btn-primary{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, #14c4ca, #20aec7);
+}
